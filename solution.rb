@@ -5,5 +5,5 @@ get '/' do
 end
 
 post '/hello' do
-  "Hola #{params[:name]}"
+  "¡Hola! #{params[:name]}"
 end
